@@ -1,0 +1,20 @@
+SQLForge
+Copyright (c) 2026 Mehedi Hasan
+
+Application source and original practice exercises are distributed under MIT.
+This is an independent learning project, not official IHK examination material.
+Example people, addresses, salaries, orders and medicine records are synthetic.
+Medicine names appear only as SQL examples, not as medical advice.
+
+SQLForge was initially developed in a separate subfolder of an AP2 tracker.
+The tracker application, its assets and its Git history are not included here.
+
+Bundled runtime libraries retain their own licences:
+- React and React DOM: MIT, https://github.com/facebook/react
+- CodeMirror: MIT, https://github.com/codemirror
+- @uiw/react-codemirror: MIT, https://github.com/uiwjs/react-codemirror
+- sql.js: MIT, https://github.com/sql-js/sql.js
+- SQLite: public domain, https://www.sqlite.org/copyright.html
+
+Transitive dependencies retain their respective notices in distributed bundles
+and installed packages. No external fonts, exam PDFs or company data are bundled.

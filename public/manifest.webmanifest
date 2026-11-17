@@ -1,0 +1,12 @@
+{
+  "name": "SQLForge | SQL-Prüfungstrainer",
+  "short_name": "SQLForge",
+  "description": "SQL üben, Abfragen ausführen und lokal Fortschritt speichern.",
+  "theme_color": "#10283b",
+  "background_color": "#f2f6f3",
+  "display": "standalone",
+  "start_url": "./",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

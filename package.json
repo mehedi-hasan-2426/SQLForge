@@ -1,0 +1,44 @@
+{
+  "name": "sqlforge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "German SQL practice with local SQLite execution, exams and browser-only progress.",
+  "license": "MIT",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run && node --test scripts/check-codeql.test.mjs"
+  },
+  "dependencies": {
+    "@codemirror/lang-sql": "6.10.0",
+    "@uiw/react-codemirror": "4.23.10",
+    "codemirror": "6.0.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sql.js": "1.13.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.6.4",
+    "@testing-library/react": "16.3.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.7",
+    "@types/sql.js": "1.4.9",
+    "@vitejs/plugin-react": "4.7.0",
+    "autoprefixer": "10.4.21",
+    "jsdom": "26.1.0",
+    "postcss": "8.5.33",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.8.3",
+    "vite": "6.4.6",
+    "vitest": "5.1.0"
+  }
+}
