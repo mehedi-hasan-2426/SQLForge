@@ -7,6 +7,8 @@ und Ergebnisse vergleichen. Ohne Konto und ohne Cloud-Datenbank.
 [![Security](https://github.com/mehedi-hasan-2426/SQLForge/actions/workflows/security.yml/badge.svg)](https://github.com/mehedi-hasan-2426/SQLForge/actions/workflows/security.yml)
 [![MIT](https://img.shields.io/badge/license-MIT-087c78)](LICENSE)
 
+**Live:** https://sql-forge-alpha.vercel.app
+
 ## Was drin ist
 
 - 120 Aufgabenvarianten in acht Gruppen: Filter, Textsuche, Aggregate, `HAVING`,
@@ -49,7 +51,7 @@ müssen im selben privaten WLAN sein. Der Laptop-Server muss weiterlaufen.
 Mit `Ctrl+C` beenden, keine Router-Portfreigabe einrichten.
 
 HTTP im WLAN erlaubt keinen Offline-Service-Worker auf dem Handy. Dafür brauchst
-du HTTPS, zum Beispiel die spätere Vercel-Adresse.
+du HTTPS, zum Beispiel die Live-Adresse https://sql-forge-alpha.vercel.app.
 
 ## Checks
 
@@ -63,8 +65,8 @@ npm run preview
 
 Die Produktionsvorschau nutzt dieselben Sicherheitsheader wie die Vercel-Konfiguration.
 Bekannte Build-Hinweise betreffen die Bundle-Größe und Node-Module im
-plattformübergreifenden sql.js-Paket. Echte Smartphone-Hardware und ein
-Vercel-Deployment müssen separat getestet werden.
+plattformübergreifenden sql.js-Paket. Echte Smartphone-Hardware muss separat
+getestet werden.
 
 CI prüft Typen, Tests, Build und npm-Advisories. Der Security-Workflow ergänzt
 Gitleaks, CodeQL und bei Pull Requests die Dependency Review. Konfigurierte
@@ -73,7 +75,8 @@ die tatsächlichen Ergebnisse.
 
 ## Vercel
 
-Noch kein Deployment nötig, um lokal zu lernen. Für die spätere Veröffentlichung:
+Produktion: https://sql-forge-alpha.vercel.app. Vercel baut jeden Push auf `main`
+automatisch. Einrichtung für ein eigenes Projekt:
 
 1. In Vercel **Add New Project** wählen und dieses GitHub-Repo importieren.
 2. Repository-Root verwenden. Framework **Vite**.
