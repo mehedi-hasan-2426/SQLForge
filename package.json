@@ -23,7 +23,7 @@
     "codemirror": "6.0.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "sql.js": "1.13.0"
+    "sql.js": "1.16.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "6.6.4",
@@ -31,7 +31,7 @@
     "@types/node": "26.6.6",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.7",
-    "@types/sql.js": "1.4.9",
+    "@types/sql.js": "1.4.11",
     "@vitejs/plugin-react": "4.7.0",
     "autoprefixer": "10.4.21",
     "jsdom": "26.1.0",
